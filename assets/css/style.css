@@ -1,0 +1,110 @@
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    background-color: #001f3f;
+color: blanchedalmond;
+
+}
+.first{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 2rem;
+    border: 5px solid ;
+    border-image: linear-gradient(45deg, #FFFFFF, rgb(255, 122, 89)) 10;
+
+    margin-top: -190px;
+
+
+}
+.selectionsColumn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+text-decoration: none;
+
+}
+.selections {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+text-decoration: none;
+padding: 50px;
+
+
+
+}
+.selections a,.selectionsColumn a{
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+font-size: 3vw;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.selections a img,.selectionsColumn a img{
+    height: 250px;
+    width: 250px;
+}
+
+.introp a {
+    font-size: 140px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+
+  }
+  
+ .introp a:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 3px;
+  }
+/* ____________________________________________________________ */
+  /* MOBILE part*/
+  @media only screen and (max-width: 700px) {
+    .first{
+        margin-top: 5%;
+        display: flex;
+        text-align: center;
+        width: fit-content;
+        flex-direction: column;
+        border: 5px solid ;
+        border-image: linear-gradient(45deg, #FFFFFF, rgb(255, 122, 89)) 10;
+    
+    
+    }
+
+    .selections a img,.selectionsColumn a img{
+        height:120px;
+        width: 120px;
+    }
+    .introp a{
+        font-size: 100px;
+        margin-bottom: 50px;
+    }
+  }
+
+    
+
+
+
+
+    
